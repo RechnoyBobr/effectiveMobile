@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - changeSet:
+      id: 0
+      author: admin
+  - include:
+      file: classpath:db/changelog/V1__init.sql
